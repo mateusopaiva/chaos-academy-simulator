@@ -39,5 +39,7 @@ def main():
   average_chaos = sum(chaos_levels) / len(chaos_levels)
   print(f"\nMédia de nível de caos ao longo dos {num_days} dias: {average_chaos:.2%}")
 
+  input("\nPressione Enter para sair...")
+
 if __name__ == "__main__":
     main()
